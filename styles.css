@@ -1,0 +1,81 @@
+body {
+	background: #f0f0f0; /* Cambiar el color de fondo */
+	font-family: Arial, sans-serif; /* Cambiar la fuente */
+}
+
+.postcard {
+	background: #fff; /* Color de fondo de la tarjeta */
+	width: 400px;
+	height: 300px;
+	margin: 50px auto; /* Centrar la tarjeta */
+	border-radius: 10px; /* Bordes redondeados */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.postcard-header {
+	background: #007bff; /* Color de fondo del encabezado */
+	color: #fff; /* Color de texto */
+	padding: 20px; /* Espaciado interno */
+	border-top-left-radius: 10px; /* Bordes redondeados superiores */
+	border-top-right-radius: 10px;
+}
+
+.postcard-header h1 {
+	margin: 0;
+	font-size: 20px;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin-left: auto; /* Mover la imagen hacia la derecha */
+}
+
+.postcard-body {
+	background: #f8f9fa; /* Color de fondo del cuerpo */
+	padding: 20px; /* Espaciado interno */
+	display: flex;
+}
+
+.postcard-body .body-left,
+.postcard-body .body-right {
+	flex: 1;
+	padding: 10px;
+}
+
+.postcard-footer {
+	background: #28a745; /* Color de fondo del pie de página */
+	padding: 20px; /* Espaciado interno */
+	text-align: center; /* Alinear el texto al centro */
+}
+
+.postcard-footer p {
+	margin: 0;
+	font-size: 14px;
+	color: #fff; /* Color de texto */
+}
+
+.postcard-footer input[type="email"],
+.postcard-footer textarea {
+	border: none;
+	border-bottom: 1px solid #fff; /* Bordes inferiores */
+	padding: 5px;
+	width: 100%;
+	margin-bottom: 10px;
+	background: transparent; /* Fondo transparente */
+	color: #fff; /* Color de texto */
+}
+
+.postcard-footer button {
+	background-color: #dc3545; /* Color de fondo del botón */
+	border: none;
+	padding: 10px 20px; /* Espaciado interno */
+	cursor: pointer;
+	font-size: 14px;
+	color: #fff; /* Color de texto */
+	border-radius: 5px; /* Bordes redondeados */
+}
+
+.postcard-footer button:hover {
+	background-color: #c82333; /* Cambiar el color de fondo al pasar el mouse */
+}
